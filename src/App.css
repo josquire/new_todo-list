@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+body {
+  background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(169,169,169,1) 45%, rgba(209,209,209,1) 61%, rgba(254,254,254,1) 100%)
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding-top: 50px;
+  margin: 10px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 200%;
+  background-color: #fff9c4;
+  box-shadow: 15px 14px 20px -5px rgba(0,0,0,0.75);
+}
+
+.btn {
+  background: #d9343c;
+  background-image: linear-gradient(to bottom, #d9343c, #701b1b);
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 8px 20px 20px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fcaf3c;
+  background-image: linear-gradient(to bottom, #fcaf3c, #d98f34);
+  text-decoration: none;
+}
+
+.input-form {
+  color: black;
+}
